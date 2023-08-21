@@ -1,4 +1,4 @@
-/*---------------- reset all stiles ----------------------*/
+/*---------------- reset all styles ----------------------*/
 html,
 body,
 div,
@@ -146,7 +146,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 100;
-    src: url('../fonts/inter-v12-cyrillic_latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* inter-200 - cyrillic_latin */
   @font-face {
@@ -154,7 +154,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 200;
-    src: url('../fonts/inter-v12-cyrillic_latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* inter-300 - cyrillic_latin */
   @font-face {
@@ -162,7 +162,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
-    src: url('../fonts/inter-v12-cyrillic_latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* inter-regular - cyrillic_latin */
   @font-face {
@@ -170,7 +170,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/inter-v12-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* inter-500 - cyrillic_latin */
   @font-face {
@@ -178,7 +178,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/inter-v12-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* inter-600 - cyrillic_latin */
   @font-face {
@@ -186,7 +186,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    src: url('../fonts/inter-v12-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* inter-700 - cyrillic_latin */
   @font-face {
@@ -194,7 +194,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/inter-v12-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* inter-800 - cyrillic_latin */
   @font-face {
@@ -202,7 +202,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
-    src: url('../fonts/inter-v12-cyrillic_latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* inter-900 - cyrillic_latin */
   @font-face {
@@ -210,7 +210,7 @@ a, a:hover, a:visited, a:active, a:focus{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/inter-v12-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../fonts/inter-v12-cyrillic_latin/inter-v12-cyrillic_latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
 .header {
@@ -247,26 +247,49 @@ a, a:hover, a:visited, a:active, a:focus{
     margin-left: auto;
     display: flex;
     gap: 24px;
+}
+
+.header-login-btn {
+    width: 80px;
+    height: 36px;
+    display: flex;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.header-login-btn:hover {
+    background-color: #E2E8F0;
+    border-radius: 4px;
+}
+
+.header-login-btn:hover .header-login-txt {
+    color: #1E293B;
+}
+
+.header-login-btn:hover .header-login-img-white {
+    display: none;
+}
+    
+.header-login-img-black {
+    display: none;    
+}
+
+.header-login-btn:hover .header-login-img-black {
+    display: block;
+}
+
 
 .header-login-txt {
-    color:#FFF;
+    color:#E2E8F0;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    order: 2;
-}
-
-.header-login-img {
-    order: 2;
-}
-    
-}
-.header-login-btn {
-    display: flex;
-    padding: 8px 0px;
-    gap: 8px;
 }
 
 .header-new-ad-btn {
@@ -278,16 +301,39 @@ a, a:hover, a:visited, a:active, a:focus{
     padding: 6px 12px;
     justify-content: center;
     gap: 4px;
-    
+    transition: 0.25s;
+    cursor: pointer;   
 }
+
+.header-new-ad-btn:hover {
+    background-color: #E2E8F0;
+}
+
 .header-new-ad-txt {
-    color: #FFF;
+    color: #E2E8F0;
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
 }
+
+.header-new-ad-btn:hover .header-new-ad-txt {
+    color: #3B82F6;
+}
+
+.plus-sign-blue {
+    display: none;
+}
+
+.header-new-ad-btn:hover .plus-sign-blue {
+    display: block;
+}
+
+.header-new-ad-btn:hover .plus-sign-white {
+    display: none;
+}
+
 .header-wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -322,23 +368,47 @@ align-items: center;
     border-color: #3B82F6;
     padding: 8px 12px;
     column-gap: 8px;
+    transition: 0.25s;
+    cursor: pointer;
 }
-/* .all-categories-btn:hover {
-    display: inline-flex;
-    width: 152px;
-    height: 36px;
-    border-radius: 4px;
-    border: 1px solid;
-    border-color: #3B82F6;
-    padding: 8px 12px;
-    column-gap: 8px;
+.all-categories-btn:hover {
     background-color: #3B82F6;;
-} */
+}
+
+.all-categories-btn:hover .nested-list-img-white {
+    display: block;
+
+}
+
+.all-categories-btn:hover .nested-list-img-blue {
+    display: none;
+
+}
+
+.nested-list-img-blue {
+    width: 20px;
+    height: 20px;
+}
+.nested-list-img-white {
+    width: 20px;
+    height: 20px;
+    display: none;
+}
 
 .all-categories-txt {
     color: var(--light-text-primary-text, #3B82F6);
     font-size: 14px;
     line-height: 20px;
+}
+
+.all-categories-btn:hover .all-categories-txt{
+    overflow: hidden;
+    color: #E2E8F0;
+    display: flex;
+    width: 152px;
+    height: 36px;
+    border-color: #3B82F6;
+    column-gap: 8px;
 }
 
 .search-bar {
@@ -371,15 +441,47 @@ align-items: center;
     gap: 8px;
     border-radius: 0px 4px 4px 0px;
     background: var(--light-utility-primary, #3B82F6);
+    transition: 0.25s;
+    cursor: pointer;
 }
-.search-txt {
-    color: var(--light-text-inverse-text, #FFF);
+
+.search-btn:hover {
+    background-color: #FFF;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #3B82F6;
+}
+.search-btn-txt {
+    color: var(--light-text-inverse-text, #E2E8F0);
     font-family: Inter;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
 }
+.search-btn:hover .search-btn-txt{
+    color: #3B82F6;
+}
+
+.search-btn-img-white {
+    width: 16px;
+    height: 16px;
+}
+
+.search-btn-img-blue {
+    width: 16px;
+    height: 16px;
+    display: none;
+}
+
+.search-btn:hover .search-btn-img-white {
+    display: none;
+}
+
+.search-btn:hover .search-btn-img-blue {
+    display: block;
+}
+
 .main-wrapper {
     margin-left: auto;
     margin-right: auto;
@@ -400,7 +502,6 @@ align-items: center;
 .main-ad-line {
     display: flex;
     width: 1296px;
-    align-items: flex-start;
     gap: 24px;
 }
 .ad-card {
