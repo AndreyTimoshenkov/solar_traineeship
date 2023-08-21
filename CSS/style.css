@@ -548,6 +548,7 @@ align-items: center;
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
+    transition: 0.25ms;
 }
 .ad-title:hover {
     width: 306px;
